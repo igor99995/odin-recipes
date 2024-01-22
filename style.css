@@ -1,10 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .title {
     text-align: center;
 }
+
+.recipes-main {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.recipes-main li {
+    margin: 4px 40px;
+    display: inline-block;
+}
+
+
 
 
 
